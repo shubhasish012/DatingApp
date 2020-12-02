@@ -10,6 +10,8 @@ export class TestErrorsComponent implements OnInit {
 
   baseUrl='https://localhost:44335/api/';
 
+  validationErrors:any[]=[];
+
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
@@ -56,6 +58,7 @@ export class TestErrorsComponent implements OnInit {
       console.log(response);
     },error=>{
       console.log(error);
+      this.validationErrors=error;
     }
     )
   }

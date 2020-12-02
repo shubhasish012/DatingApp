@@ -20,7 +20,7 @@ export class ErrorInterceptor implements HttpInterceptor {
       catchError(error=>{
         if(error){
           switch (error.status) {
-            case 404:
+            case 400:
               if(error.error.errors){
                 const modalStateErrors=[];
                 for(const key in error.error.errors){
@@ -28,13 +28,13 @@ export class ErrorInterceptor implements HttpInterceptor {
                     modalStateErrors.push(error.error.errors[key]);
                   }
                 }
-                throw modalStateErrors;
+                throw modalStateErrors.flat();
               } else{
-                  this.toastr.error(error.statusText,error.status)
+                this.toastr.error(error.statusText === "OK" ? "Bad Request" : error.statusText, error.status);
               }
               break;
             case 401:
-              this.toastr.error(error.statusText,error.status);
+              this.toastr.error(error.statusText === "OK" ? "Unauthorized" : error.statusText, error.status);
               break;
             case 404:
               this.router.navigateByUrl('/not-found');
