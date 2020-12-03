@@ -13,8 +13,8 @@
     "Country": "Luxembourg",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/96.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/96.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -32,8 +32,8 @@
     "Country": "Azerbaijan",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/20.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/20.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -51,8 +51,8 @@
     "Country": "Greenland",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/33.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/33.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -70,8 +70,8 @@
     "Country": "United Kingdom",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/67.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/67.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -89,8 +89,8 @@
     "Country": "Senegal",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/women/26.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/women/26.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -109,8 +109,8 @@
     "Country": "Western Sahara",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/23.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/23.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -128,8 +128,8 @@
     "Country": "Russian Federation",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/10.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/10.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -147,8 +147,8 @@
     "Country": "Dominican Republic",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/89.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/89.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -166,8 +166,8 @@
     "Country": "US Minor Outlying Islands",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/14.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/14.jpg",
+        "IsMain": true
       }
     ]
   },
@@ -185,8 +185,8 @@
     "Country": "Cape Verde",
     "Photos": [
       {
-        "url": "https://randomuser.me/api/portraits/men/11.jpg",
-        "isMain": true
+        "Url": "https://randomuser.me/api/portraits/men/11.jpg",
+        "IsMain": true
       }
     ]
   }
