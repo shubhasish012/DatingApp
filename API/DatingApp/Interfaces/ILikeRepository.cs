@@ -1,5 +1,6 @@
 ﻿using DatingApp.DTOs;
 using DatingApp.Entities;
+using DatingApp.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace DatingApp.Interfaces
 
         Task<AppUser> GetUserWithLikes(int userId);
 
-        Task<IEnumerable<LikeDto>> GetUserLikes(string predicate, int userId);
+        Task<PagedList<LikeDto>> GetUserLikes(LikesParams likesParams);
     }
 }
