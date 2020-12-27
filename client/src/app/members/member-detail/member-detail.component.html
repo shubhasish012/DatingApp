@@ -16,7 +16,7 @@
           <p>{{member.lastActive | timeago}}</p>
         </div>
         <div>
-          <strong>Membre since:</strong>
+          <strong>Member since:</strong>
           <p>{{member.created | date: 'dd MMM yyyy'}}</p>
         </div>
       </div>
@@ -44,7 +44,7 @@
         <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery" style="display: inline-block; margin-bottom: 20px;"></ngx-gallery>
       </tab>
       <tab heading='Messages' (selectTab)="onTabActivated($event)">
-        <app-member-messages [messages]="messages"></app-member-messages>
+        <app-member-messages [messages]="messages" [username]="member.username"></app-member-messages>
       </tab>
     </tabset>
   </div>
