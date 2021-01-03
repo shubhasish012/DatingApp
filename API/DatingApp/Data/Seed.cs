@@ -26,8 +26,13 @@ namespace DatingApp.Data
             {
                 new AppRole{Name = "Member"},
                 new AppRole{Name = "Admin"},
-                new AppRole{Name = "Moderator"}
+                new AppRole{Name = "Moderator"},
             };
+
+            foreach(var role in roles)
+            {
+                await roleManager.CreateAsync(role);
+            }
 
             foreach(var user in users)
             {
