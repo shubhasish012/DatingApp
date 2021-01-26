@@ -5,6 +5,7 @@
         "minlength",
         "module",
         "tabset",
-        "toastr"
+        "toastr",
+        "wwwroot"
     ]
 }
